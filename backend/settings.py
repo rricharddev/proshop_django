@@ -191,6 +191,7 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Dont forget to reset database connection and hide password
 #AWS_QUERYSTRING_AUTH = False
