@@ -17,6 +17,8 @@ import UserEditScreen from './screens/UserEditScreen'
 import ProductListScreen from './screens/ProductListScreen'
 import ProductEditScreen from './screens/ProductEditScreen'
 import OrderListScreen from './screens/OrderListScreen'
+import WhatsAppWidget from 'react-whatsapp-widget'
+import 'react-whatsapp-widget/dist/index.css'
 
 
 function App() {
@@ -43,6 +45,7 @@ function App() {
           <Route path='/admin/product/:id/edit' component={ProductEditScreen} />
 
           <Route path='/admin/orderlist' component={OrderListScreen} />
+          <WhatsAppWidget phoneNumber='1123074288' companyName="claudio" message="Hola como podemos ayudarte"sendButton="Enviar"textReplyTime="Te responderemos en unos instantes" />
         </Container>
       </main>
       <Footer />
