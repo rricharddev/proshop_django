@@ -4,6 +4,7 @@ import { Navbar, Nav, Container, Row, NavDropdown } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 import SearchBox from './SearchBox'
 import { logout } from '../actions/userActions'
+import Logo from '../assets/img/Logo.png'
 
 function Header() {
 
@@ -21,7 +22,9 @@ function Header() {
             <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
                 <Container>
                     <LinkContainer to='/'>
-                        <Navbar.Brand>ProShop</Navbar.Brand>
+                         <Navbar.Brand >                           
+                            <img  src={Logo} height="36"  />                           
+                         </Navbar.Brand>
                     </LinkContainer>
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
