@@ -45,7 +45,7 @@ function App() {
           <Route path='/admin/product/:id/edit' component={ProductEditScreen} />
 
           <Route path='/admin/orderlist' component={OrderListScreen} />
-          <WhatsAppWidget phoneNumber='1123074288' companyName="claudio" message="Hola como podemos ayudarte"sendButton="Enviar"textReplyTime="Te responderemos en unos instantes" />
+          <WhatsAppWidget phoneNumber='+541123074288' companyName="claudio" message="Hola como podemos ayudarte"sendButton="Enviar"textReplyTime="Te responderemos en unos instantes" />
         </Container>
       </main>
       <Footer />
