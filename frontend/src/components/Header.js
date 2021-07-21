@@ -19,11 +19,11 @@ function Header() {
 
     return (
         <header>
-            <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+             <Navbar expand="lg" variant="light" bg="light">
                 <Container>
                     <LinkContainer to='/'>
                          <Navbar.Brand >                           
-                            <img  src={Logo} height="36"  />                           
+                            <img  src={Logo} height="40" width="60" />                           
                          </Navbar.Brand>
                     </LinkContainer>
 
