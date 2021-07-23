@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/rrvangua/public_html/
-    - /home/rrvangua/repositories/proshop_django
+    - /bin/cp -R /home/rrvangua/repositories/proshop_django
