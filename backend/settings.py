@@ -32,7 +32,9 @@ ALLOWED_HOSTS = [
     'proshoprrichard2210.herokuapp.com',
     'www.oficenter.store',
     'oficenter.store',
-    'app.oficenter.ar']
+    'app.oficenter.ar',
+    'oficenter.ar',
+    'www.oficenter.ar']
 
 
 
