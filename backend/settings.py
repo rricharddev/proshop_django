@@ -27,10 +27,10 @@ SECRET_KEY = 'sc%oco$+(3$z$at=z4j)#l-+ym)+_b11389mdt2^12m$bf63%@'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    #'proshop-rrichard.herokuapp.com'
+    'proshop-rrichard.herokuapp.com'
     '127.0.0.1',
     'localhost', 
-    #'proshoprrichard2210.herokuapp.com',
+    'proshoprrichard2210.herokuapp.com',
     'www.oficenter.store',
     'oficenter.store',
     'app.oficenter.ar',
