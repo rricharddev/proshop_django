@@ -30,7 +30,7 @@ ALLOWED_HOSTS = [
     'proshop-rrichard.herokuapp.com'
     '127.0.0.1',
     'localhost', 
-    'proshoprrichard2210.herokuapp.com',
+    #'proshoprrichard2210.herokuapp.com',
     'www.oficenter.store',
     'oficenter.store',
     'app.oficenter.ar',
