@@ -27,6 +27,7 @@ SECRET_KEY = 'sc%oco$+(3$z$at=z4j)#l-+ym)+_b11389mdt2^12m$bf63%@'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'oficenter.herokuapp.com'
     'appoficenter.herokuapp.com',
     '127.0.0.1',
     'localhost', 
