@@ -149,16 +149,16 @@ DATABASES = {
 #        'PORT': '5432'
 #    }
 # }
-""" DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'DEMO_TEST',
-        'USER': 'postgres',
-        'PASSWORD': 'Surfeando2210',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-} """
+#""" DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': 'DEMO_TEST',
+#        'USER': 'postgres',
+#        'PASSWORD': 'Surfeando2210',
+#        'HOST': 'localhost',
+ #       'PORT': '5432',
+ #   }
+#} """
 
 
 # Password validation
