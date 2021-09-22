@@ -217,15 +217,15 @@ CORS_ALLOW_ALL_ORIGINS = True
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Dont forget to reset database connection and hide password
-AWS_QUERYSTRING_AUTH = False
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+#AWS_QUERYSTRING_AUTH = False
+##DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 #AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-AWS_ACCESS_KEY_ID = 'AKIA6CWG7HYVE5XEHNFA'
+##AWS_ACCESS_KEY_ID = 'AKIA6CWG7HYVE5XEHNFA'
 #AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-AWS_SECRET_ACCESS_KEY = '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'
+##AWS_SECRET_ACCESS_KEY = 'qBhaIsokiiSs7P7eduz923r9Fyz5HON6/shTG31D'
 
-AWS_STORAGE_BUCKET_NAME = 'ecommerce-bucket2021'
+##AWS_STORAGE_BUCKET_NAME = 'ecommerce-bucket2021'
 
 
 if os.getcwd() == '/app':
