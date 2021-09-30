@@ -26,6 +26,7 @@ function HomeScreen({ history }) {
             {!keyword && <ProductCarousel />}
 
             <h1>Busca por Categorias</h1>
+            
             {loading ? <Loader />
                 : error ? <Message variant='danger'>{error}</Message>
                     :
